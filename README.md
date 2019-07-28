@@ -37,3 +37,18 @@ kilfu0701 (kilfu0701@gmail.com)
 
 ## License
 MIT
+
+
+
+
+	// change the request host to match the target
+//	r.Host = "www.example.org:80"
+	r.Host = "www.example.org:80"
+	u, _ := url.Parse("http://www.example.org")
+	proxy := httputil.NewSingleHostReverseProxy(u)
+	// You can optionally capture/wrap the transport if that's necessary (for
+	// instance, if the transport has been replaced by middleware). Example:
+	// proxy.Transport = &myTransport{proxy.Transport}
+	proxy.Transport = &myTransport{}
+
+	proxy.ServeHTTP(w, r)
