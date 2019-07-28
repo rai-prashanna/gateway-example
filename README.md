@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # go-vendor-example
 An example that using "govendor" into your project.
 
@@ -52,3 +53,8 @@ MIT
 	proxy.Transport = &myTransport{}
 
 	proxy.ServeHTTP(w, r)
+=======
+# gateway-example
+
+asdcz
+>>>>>>> fe0f1de6a9275631f29a6851353cd72efd7a359a
