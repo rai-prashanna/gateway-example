@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # go-vendor-example
 An example that using "govendor" into your project.
 
@@ -33,7 +34,12 @@ go run src/main.go
   - Go 1.6 above
 
 ## Contributors
-kilfu0701 (kilfu0701@gmail.com)
+
 
 ## License
 MIT
+=======
+# gateway-example
+
+asdcz
+>>>>>>> fe0f1de6a9275631f29a6851353cd72efd7a359a
